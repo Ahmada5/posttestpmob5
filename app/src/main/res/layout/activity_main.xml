@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="THE RESULT OF MY POSTTEST 5 MOBILE"
+        android:textSize="25dp"
+        android:fontFamily="@font/trade_winds"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/blue2"
+        android:background="@drawable/bg1" />
+
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="590dp"
+        android:text="Achmad soleh"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/blue1"
+        android:textSize="25dp"
+        android:background="@drawable/bg1"
+        />
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="635dp"
+        android:text="1800018279"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/blue1"
+        android:textSize="25dp"
+        android:background="@drawable/bg1"
+        />
+    <TextView
+        android:id="@+id/slot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="680dp"
+        android:text="Jumat 15.00 WIB"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/blue1"
+        android:textSize="25dp"
+        android:background="@drawable/bg1"
+        />
+
+</RelativeLayout>
